@@ -3,8 +3,9 @@
   padding: 0;
 }
 body {
+  padding: 0;
   font: 14px "Lucida Grande", Helvetica , Arial, sans-serif;
-  margin: none;
+  margin: 0;
 }
 .landing-page {
   margin: none;
@@ -23,6 +24,7 @@ body {
   color: white;
   font-size: 60px;
   padding-top: 330px;
+  margin: 0;
 }
 .layout-title-two {
   text-align: center;
@@ -71,25 +73,31 @@ a {
   border-radius: 50%;
 }
 .about-me {
-  height: 600px;
+  height: 500px;
   background-color: #00ffdd
 }
 .about-me h2 {
   text-align: center;
-  padding-top: 90px;
+  padding-top: 70px;
   text-transform: uppercase;
   font-weight: 500px;
   margin-bottom: 40px;
 }
-#myCarousel {
-  width: 80%;
+.passion-cont {
   text-align: center;
-  margin-left: 10%;
 }
-#myCarousel img { 
-  max-height: 400px;
-  width: 80%;
+i {
+  border: black solid 5px;
+  padding: 30px;
+  border-radius: 90px;
+  margin: 40px;
 }
-.carousel-control {
-  color: #00ffdd;
+.projects {
+  background-color: rgba(232, 233, 229, 0.712);
+  height: 700px;
+}
+.projects h2 {
+  margin: 0;
+  padding-top: 70px;
+  text-align: center;
 }
