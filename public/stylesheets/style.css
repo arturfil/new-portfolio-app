@@ -70,3 +70,26 @@ a {
   width: 30px;
   border-radius: 50%;
 }
+.about-me {
+  height: 600px;
+  background-color: #00ffdd
+}
+.about-me h2 {
+  text-align: center;
+  padding-top: 90px;
+  text-transform: uppercase;
+  font-weight: 500px;
+  margin-bottom: 40px;
+}
+#myCarousel {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+#myCarousel img { 
+  max-height: 400px;
+  width: 80%;
+}
+.carousel-control {
+  color: #00ffdd;
+}
