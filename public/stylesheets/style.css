@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 body {
   padding: 0;
@@ -16,7 +17,7 @@ body {
   background-size: cover;
 }
 .header-overlay {
-  background-color: rgba(31, 31, 31, 0.7);  
+  background-color: rgba(31, 31, 31, 0.4);  
   height: 800px;
 }
 .layout-title {
@@ -48,6 +49,9 @@ a {
   padding: 90px;
   text-transform: uppercase;
 }
+.tech-block {
+  width: 90%;
+}
 .tech {
   text-align: center;
   /* border: lightgrey 1px solid; */
@@ -73,7 +77,7 @@ a {
   border-radius: 50%;
 }
 .about-me {
-  height: 500px;
+  min-height: 500px;
   background-color: #00ffdd
 }
 .about-me h2 {
@@ -89,7 +93,7 @@ a {
 i {
   border: black solid 5px;
   padding: 30px;
-  border-radius: 90px;
+  border-radius: 50%;
   margin: 40px;
 }
 .projects {
@@ -101,3 +105,14 @@ i {
   padding-top: 70px;
   text-align: center;
 }
+.project-row {
+  margin-top: 70px;
+  width: 100%;
+}
+.project-cont {
+  border: gray 1px solid;
+  text-align: center;
+  height: 200px;
+}
+
+
