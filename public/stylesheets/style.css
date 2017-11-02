@@ -42,11 +42,13 @@ body {
   font-size: 25px;
   text-decoration: none;
   color: white;
+
 }
 .tour-button:hover {
   text-decoration: none;
-  color: whitesmoke;
-  background-color: transparent;
+  color: #00b7ff;
+  border-color: white;
+  background-color: white;
 }
 a {
   color: #00B7FF;
