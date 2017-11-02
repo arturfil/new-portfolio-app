@@ -123,6 +123,9 @@ hr {
   font-weight: 500px;
   margin-bottom: 20px;
 }
+.about-me-cont {
+  margin-bottom: 40px;
+}
 .passion-cont {
   text-align: center;
 }
@@ -140,6 +143,7 @@ i:hover {
   background-color: rgba(232, 233, 229, 0.712);
   padding-bottom: 150px;
   /* margin-bottom: 30px; */
+  overflow: hidden;
 }
 .projects h2 {
   text-transform: uppercase;
@@ -166,10 +170,12 @@ i:hover {
   width: 90%; 
   padding: 20px 0;
   margin-bottom: 50px;
+  overflow-y: hidden;
 }
 .project-cont img:hover {
   width: 100%;
   height: auto;
+  overflow: hidden;
 }
 
 /* Hire me section */
@@ -177,7 +183,6 @@ i:hover {
 .hire-me {
   height: 300px;
   background-color: #00B7FF;
-  margin: 0px;
 }
 .hire-me h2 {
   margin: 0;
