@@ -32,6 +32,22 @@ body {
   color: white;
   font-size: 60px;
 }
+.tour-button {
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 45px;
+  padding: 10px 20px;
+  width: 400px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+.tour-button:hover {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: transparent;
+}
 a {
   color: #00B7FF;
 }
@@ -116,6 +132,10 @@ i {
   border-radius: 50%;
   margin: 40px;
 }
+i:hover {
+  color: white;
+  border: white solid 7px;
+}
 .projects {
   background-color: rgba(232, 233, 229, 0.712);
   padding-bottom: 150px;
@@ -147,11 +167,15 @@ i {
   padding: 20px 0;
   margin-bottom: 50px;
 }
+.project-cont img:hover {
+  width: 100%;
+  height: auto;
+}
 
 /* Hire me section */
 
 .hire-me {
-  height: 700px;
+  height: 300px;
   background-color: #00B7FF;
   margin: 0px;
 }
@@ -160,14 +184,84 @@ i {
 }
 .button-col {
   text-align: center;
+    margin-top: 20px;
 }
 .button {
   background-color: #00B7FF;
   border: 3px solid black;
   border-radius: 45px;
-  padding: 10px 5px;
+  padding: 10px 10px;
   width: 300px;
   text-align: center;
   font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+.button:hover {
+  text-decoration: none;
+  color: white;
+  border-color: white;
 }
 
+/* Contact Me Section */
+
+.contact-me {
+  margin-bottom: 50px;
+}
+.form-cont {
+  margin-top: 80px;
+}
+.contact-me p {
+  text-align: center;
+  font-size: 25px;
+}
+.contact-me label {
+  text-align: right;
+  padding-right: 80px;
+  text-transform: uppercase;  
+}
+.contact-me input {
+  height: 40px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.contact-me textarea {
+  font-size: 20px;
+}
+.send-e-button {
+  background-color: transparent;
+  border: 3px solid #00B7FF;
+  border-radius: 45px;
+  padding: 10px 5px;
+  width: 200px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: #00B7FF;
+}
+.send-e-button:hover {
+  background-color: black;
+  color: #00B7FF;
+  border-color: black;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.808)
+}
+footer h1 {
+  padding-top: 40px;
+  color: grey;
+  text-align: center
+}
+footer p {
+  color: lightgrey;
+  text-align: center;
+}
+.icon-col {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.icon-col i {
+  color: whitesmoke;
+  border-color: whitesmoke;
+}
