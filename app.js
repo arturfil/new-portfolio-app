@@ -7,8 +7,9 @@ const bodyParser   = require('body-parser');
 const layouts      = require('express-ejs-layouts');
 const mongoose     = require('mongoose');
 
+require('dotenv').config();
 
-mongoose.connect('mongodb://localhost/portfolio-app');
+mongoose.connect(procces.env.MONGODB_URI);
 
 const app = express();
 
