@@ -167,17 +167,39 @@ i:hover {
   margin-bottom: 120px;
   padding: 30px 0px;
 }
+.project-cont:hover .middle {
+  opacity: 1;
+}
 .project-cont img {
   height: auto;
   width: 90%; 
   padding: 20px 0;
   margin-bottom: 50px;
   overflow-y: hidden;
+  opacity: 1;
 }
 .project-cont img:hover {
-  width: 100%;
+  width: 92%;
   height: auto;
   overflow: hidden;
+  opacity: 0.7;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text {
+  background-color: #00ffdd;
+  color: white;
+  font-size: 15px;
+  padding: 16px 16px;
+  border-radius: 25px;
+  text-align: center;
 }
 
 /* Hire me section */
@@ -272,3 +294,5 @@ footer p {
   color: whitesmoke;
   border-color: whitesmoke;
 }
+
+/* Testing */
