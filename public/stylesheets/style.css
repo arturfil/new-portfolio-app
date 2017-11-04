@@ -125,6 +125,12 @@ hr {
   font-weight: 500px;
   margin-bottom: 20px;
 }
+.about-me h3 {
+  text-transform: uppercase;
+}
+.about-me p {
+  font-size: 20px;
+}
 .about-me-cont {
   margin-bottom: 40px;
 }
