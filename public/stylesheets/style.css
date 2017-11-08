@@ -145,7 +145,7 @@ i {
 }
 i:hover {
   color: white;
-  border: white solid 7px;
+  border: white solid 5px;
 }
 .projects {
   background-color: rgba(232, 233, 229, 0.712);
@@ -299,6 +299,10 @@ footer p {
 .icon-col i {
   color: whitesmoke;
   border-color: whitesmoke;
+}
+.icon-col i:hover {
+  color: #00B7FF;
+  border-color: #00B7FF;
 }
 
 /* Testing */
