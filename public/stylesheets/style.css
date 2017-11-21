@@ -8,6 +8,9 @@ body {
   font: 14px "Lucida Grande", Helvetica , Arial, sans-serif;
   margin: 0;
 }
+h2, h3 {
+  text-align: center;
+}
 .landing-page {
   margin: none;
   background-image: url('../images/mexico-wallpaper.jpg');
@@ -78,7 +81,6 @@ hr {
 
 #header {
   margin-top: 50px;
-  height: 700px;
   background-color: white;
 }
 #header h2 {
@@ -216,6 +218,7 @@ i:hover {
 }
 .hire-me h2 {
   margin: 0;
+  padding: 40px;
 }
 .button-col {
   text-align: center;
