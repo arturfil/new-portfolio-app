@@ -52,6 +52,7 @@ h2, h3 {
   color: #00b7ff;
   border-color: white;
   background-color: white;
+  transition: 0.3s;
 }
 a {
   color: #00B7FF;
@@ -148,6 +149,7 @@ i {
 i:hover {
   color: white;
   border: white solid 5px;
+  transition: 0.3s;
 }
 .projects {
   background-color: rgba(232, 233, 229, 0.712);
@@ -239,6 +241,7 @@ i:hover {
   text-decoration: none;
   color: white;
   border-color: white;
+  transition: 0.3s;
 }
 
 /* Contact Me Section */
@@ -262,9 +265,11 @@ i:hover {
   height: 40px;
   margin-bottom: 15px;
   font-size: 20px;
+  border: solid 0.5px grey;
 }
 .contact-me textarea {
   font-size: 20px;
+  border: solid 0.5px grey;
 }
 .send-e-button {
   background-color: transparent;
@@ -282,6 +287,7 @@ i:hover {
   background-color: black;
   color: #00B7FF;
   border-color: black;
+  transition: 0.3s;
 }
 footer {
   background-color: rgba(0, 0, 0, 0.808)
@@ -304,6 +310,7 @@ footer p {
   border-color: whitesmoke;
 }
 .icon-col i:hover {
+  transition: 0.3s;
   color: #00B7FF;
   border-color: #00B7FF;
 }
