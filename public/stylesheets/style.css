@@ -188,7 +188,7 @@ i:hover {
 }
 .project-cont img:hover {
   width: 92%;
-  height: 300px;
+  height: auto;
   overflow: hidden;
   opacity: 0.7;
 }
