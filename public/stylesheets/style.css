@@ -179,7 +179,7 @@ i:hover {
   opacity: 1;
 }
 .project-cont img {
-  height: 280px;
+  height: auto;
   width: 90%;
   padding: 20px 0;
   margin-bottom: 50px;
